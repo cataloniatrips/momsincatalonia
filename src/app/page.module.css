@@ -285,20 +285,26 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 4.5rem 0 4rem;
+    padding: 3.5rem 0 3rem;
   }
 
   .hero h1 {
-    font-size: 2.1rem;
+    font-size: 1.75rem;
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .cta {
     flex-direction: column;
-    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .heroButton {
+    width: 100%;
+    padding: 0.65rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   .pillRow {
@@ -306,28 +312,108 @@
   }
 
   .features {
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
 
   .features h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
   }
 
   .grid {
-    gap: 2rem;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
   }
 
   .sectionHeader {
     text-align: center;
   }
 
+  .highlightGrid {
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
   .newsletterInner {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1rem;
     flex-direction: column;
     align-items: stretch;
   }
 
   .newsletterForm {
     width: 100%;
+    flex-direction: column;
+  }
+
+  .newsletterForm input {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .hero h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta {
+    gap: 0.6rem;
+  }
+
+  .heroButton {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.85rem;
+  }
+
+  .features {
+    padding: 2rem 0;
+  }
+
+  .features h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .highlightCard {
+    padding: 1.25rem;
+  }
+
+  .highlightCard h3 {
+    font-size: 1.1rem;
+  }
+
+  .newsletterInner {
+    padding: 1.25rem 0.875rem;
   }
 }

@@ -101,10 +101,31 @@ button {
 }
 
 @media (max-width: 768px) {
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.5rem; }
-  h3 { font-size: 1.25rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  h3 { font-size: 1rem; }
+  h4 { font-size: 0.95rem; }
   .container {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
+  }
+  button {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1rem; }
+  h3 { font-size: 0.9rem; }
+  body {
+    font-size: 15px;
+  }
+  .container {
+    padding: 0 0.875rem;
+  }
+  button {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.25rem;
   }
 }
