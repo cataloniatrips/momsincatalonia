@@ -1,0 +1,46 @@
+.intro {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.post {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+}
+
+.post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: var(--primary);
+  font-weight: 600;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.link:hover {
+  color: var(--primary-light);
+}

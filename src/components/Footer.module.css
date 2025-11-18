@@ -1,0 +1,28 @@
+.footer {
+  background: var(--text-dark);
+  color: var(--white);
+  padding: 3rem 0 2rem;
+  margin-top: 6rem;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.links a {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: var(--primary-light);
+}
